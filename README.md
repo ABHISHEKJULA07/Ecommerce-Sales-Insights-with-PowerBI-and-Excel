@@ -45,9 +45,3 @@ Visual dashboards designed in **Power BI** and **Excel** cover:
 - **Delivery Analysis** → On-time vs delayed deliveries, regional delivery patterns.
 - **Review & Rating Dashboard** → Average review score vs delivery time.
 
-📸 *Dashboard screenshots are available inside:*  
-`/bi_dashboard/dashboard_screenshots/`
-
----
-
-## 📂 Repository Structure
