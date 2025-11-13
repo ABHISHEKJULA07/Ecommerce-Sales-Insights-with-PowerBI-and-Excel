@@ -1,69 +1,53 @@
-cat > README.md << 'EOF'
-# 📊 Streaming Catalog Insights — Power BI
-
-## 🎯 Project Overview
-This Power BI dashboard provides an interactive exploration of a streaming service’s content catalog, covering movies and TV shows. Users can analyze ratings, genres, popularity, and geographic distribution through an intuitive visual interface.
-
-![banner](https://github.com/Laoode/Netflix_Analytics-PowerBI/blob/main/Banner.png)
+# 🛒 Ecommerce Sales Insights with Power BI & Excel
+*Uncovering data-driven decisions from e-commerce sales performance*
 
 ---
 
-## 🧩 Key Highlights
-
-- **Header & Summary**  
-  Top-level area shows brand artwork, total titles in the dataset (5,476) and the overall average rating (6.7).
-
-- **Core KPIs**  
-  Quick metrics: number of films, number of TV shows, average rating, and total votes.
-
-- **Rating Distribution Chart**  
-  Bar chart displaying title counts across rating buckets (1–9). Click a bar to drill into titles for that range.
-
-- **Genre Performance View**  
-  Combined visualization of average rating and title count per genre to identify high-quality and high-volume categories.
-
-- **Country Filter & Summary Table**  
-  Country selector with a table summarizing title count, mean rating, vote totals, and votes per title for each selected region.
-
-- **Global Map**  
-  Geographic visualization of title distribution and voting metrics; filterable by metric (title count, avg rating, votes).
-
-- **Title Detail Table**  
-  Interactive table with title-level details: synopsis, rating, and vote count.
+## 📘 Project Overview
+This project focuses on analyzing e-commerce sales data to extract actionable business insights using **Power BI** and **Excel**.  
+The interactive dashboards highlight trends in **sales performance**, **customer behavior**, **product performance**, and **shipping efficiency**, helping stakeholders make informed decisions and drive business growth.
 
 ---
 
-## 📌 Purpose
-Designed to deliver a clear, data-driven view of a streaming catalog’s composition, quality, and regional reach to support exploration and decision-making.
+## 🧠 Objectives
+- Analyze overall sales performance and revenue growth trends.
+- Identify top-performing products, categories, and customer segments.
+- Evaluate delivery performance and its impact on customer satisfaction.
+- Provide business users with interactive BI dashboards for real-time insights.
 
 ---
 
-## 📂 Data Source
-Dataset derived from a public Kaggle listing of streaming titles, including fields such as genre, country, release year, rating, and number of votes.
+## 🧰 Tech Stack
+| Category | Tools Used |
+|-----------|-------------|
+| Data Source | Kaggle – E-commerce Dataset |
+| Data Cleaning | Excel, Power Query |
+| Database / Queries | SQL (MySQL / PostgreSQL) |
+| Data Visualization | Power BI, Excel |
+| Documentation | GitHub README, Markdown |
 
 ---
 
-## 🎨 Design & Assets
-- Palette inspired by the platform’s primary color, created using a gradient tool.
-- Brand assets used where appropriate to enhance visual recognition.
+## 📊 Key Insights
+- 📦 **Top 5% of customers** contribute ~35% of total revenue.  
+- 💳 **Credit Card** is the most used payment method (~75% of transactions).  
+- 🚚 **Average delivery time** is 10.3 days — late deliveries reduce review ratings.  
+- 🛍️ **Electronics** and **Home Appliances** generate 45% of revenue despite fewer SKUs.  
+- 🌍 **Southeast region** shows the highest sales volume and repeat purchase rate.
 
 ---
 
-## 🛠️ Skills & Tools Required
-Recommended familiarity:
-- Power BI Desktop and Service
-- DAX (Data Analysis Expressions)
-- Data import & transformation (Power Query)
-- Data modeling (relationships, hierarchies)
-- Designing maps and interactive visuals
-- Managing data refresh and access controls
+## 🖥️ Dashboard Highlights
+Visual dashboards designed in **Power BI** and **Excel** cover:
+- **Sales Overview** → Revenue trends, profit margins, payment modes.
+- **Customer Insights** → Repeat customers, CLV, top regions.
+- **Product Performance** → Best-selling products, category share.
+- **Delivery Analysis** → On-time vs delayed deliveries, regional delivery patterns.
+- **Review & Rating Dashboard** → Average review score vs delivery time.
+
+📸 *Dashboard screenshots are available inside:*  
+`/bi_dashboard/dashboard_screenshots/`
 
 ---
 
-## 🚀 How to Explore
-1. Download the `.pbix` file.  
-2. Open in Power BI Desktop.  
-3. Use filters, charts, and map controls to interact with the content.
-
-✨ Happy exploring!
-
+## 📂 Repository Structure
